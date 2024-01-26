@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwanshu Kumar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9883788825.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="name">Diwanshu Kumar</div>
+                <div class="static-txt">I'm a</div>
+                <ul class="dynamic-txts">
+                    <li><span>Freelancer </span></li>
+                    <li><span>Developer </span></li>
+                    <li><span>Photographer </span></li>
+                    <li><span>Designer </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- --------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="para1">As a Bachelor of Technology computer science student, I’m proud to have already developed a proficient working knowledge of HTML, CSS, JavaScript, React, Figma, Node.js, C/C++, Data Structures and Algorithms, MongoDB and mySQL.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('awards')">Awards</p>
+                    </div>
+                    <!-- -----------skills-------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Design Web Interfaces</li>
+                            <li><span>Web Development</span><br>Using HTML, CSS, JavaScript</li>
+                            <li><span>Coding</span><br>C, C++, Java, Python</li>
+                            <li><span>Softwares</span><br>Visual Studio, Github, Figma, Atoms</li>
+                            <li><span>Logics</span><br>OOPS Concepts, DSA (C, C++, Java, Python)</li>
+                            <li><span>Other</span><br>Problem Solving, Debugging</li>
+                        </ul>
+                    </div>
+                    <!-- --------education------ -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH (COMPUTER SCIENCE AND ENGINEERING)</span><br>(2021-2025)<br><i>Maharaja Surajmal Institute of Technology, Delhi, India</i><br>Currently a third year student with 9.43 CGPA in first two years of graduation.</li>
+                            <li><span>10+2 (PCM)</span><br>(2020-2021)<br><i>Rao Man Singh Sr. Sec. Public School, New Delhi</i><br>Secured second position in school with 96.4% in Board Examinations.</li>
+                            <li><span>10th</span><br>(2018-2019)<br><i>Mother India Sr. Sec. School, Maraut, Jhajjar, Haryana</i><br>Secured third position in school with 92.9% in Board Examinations.</li>
+                    </div>
+                    <!-- -----------experience-------- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Developer Intern</span><br>(2023)<br><i>DESIDOC, DRDO, Ministry of Defence, Delhi, India</i><br>Worked on Common Vulnerabilities in OS and Web Applications.</li>
+                        </ul>
+                    </div>
+                    <!-- -------------awards------------ -->
+                    <div class="tab-contents" id="awards">
+                        <ul>
+                            <li><span>Rank 1st</span><br>(2021-2022)<br>First year <i>Maharaja Surajmal Institute of Technology, Delhi</i>.</li>
+                            <li><span>Rank 12th</span><br>(2021-2022)<br>First year <i>Guru Gobind Singh Indraprastha University, New Delhi</i>.</li>
+                            <li><span>EXPLORING ENGINEERING</span><br>(2019)<br>Centre for Extension and Field Outreach at
+                            <i>DTU (Delhi Technological University)</i>.</li>
+                            <li><span>Science Exhibition Awardee</span><br>(2018)<br>Winner at <i>Indian Science Congress Association</i>.</li>
+                            <li><span>ADSAT(Analysis and Development of Scientific Aptitude and Talent Test)</span><br>(2018 & 2013)<br> Scored <i>A GRADE</i> and secured <i>first position</i> in School.</li>
+                            <li><span>Indian Red Cross Society</span><br>(2018)<br>Certified for <i>First Aid</i>.</li>
+                            <li><span>Hindustan Scouts And Guides</span><br>(2018)<br>Certified for <i>Praveshika Haryana State</i>.</li>
+                            <li><span>Rank 135</span><br>(2016)<br>Certified by <i>All Haryana Silver Zone Foundation Olympiad</i>.</li>
+                            <li><span>Quizes</span><br>(2016)<br>Certified by <i>All Haryana Silver Zone Foundation Olympiad</i>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <p class="para1">I’m excited to work at the cutting edge of coding and be instrumental in leading technological innovations that drive small businesses into the mainstream.</p>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Figma, Adobe Photoshop, Adobbe XD</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-basketball"></i>
+                    <h2>Front-end Developer</h2>
+                    <p>HTML, CSS, JavaScript and ReactJs</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Database Engineer</h2>
+                    <p>SQL and noSQL</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Video Editor</h2>
+                    <p>Adobe Illustrator, Color Grading, Adobe after effects, IMovie, VN, Cap-Cut, Filmora, Final-Cut Pro</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <p class="para1"></p>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>The website connects rural craftsmen with the other market of people for selling goods.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png">
+                    <div class="layer">
+                        <h3>Social Media Website</h3>
+                        <p>The website connects talented people with each other to share their opinions and views.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>Car Pool Website</h3>
+                        <p>The website helps people to pool the car for a path to reach the destination.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  diwanshuk2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7065908203</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/diwanshu.kumar.04/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/traderdev04"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/diwanshu_hr/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/diwanshukumar2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------copyright------------ -->
+    <div class="copyright">
+        <h1 class="subtitle2">DiWaNsHu KuMaR</h1>
+        <p class="content">Seeking to learn and experience new things in life with some twist of adventures.</p>
+        <div class="social-icons2">
+            <a href="https://www.facebook.com/diwanshu.kumar.04/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.twitter.com/traderdev04"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/diwanshu_hr/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/diwanshukumar2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="copyrightstyle">Copyright <i class="fa-regular fa-copyright"></i>  <b class="copy-name">diwanshukumar</b>. All rights reserved<br></p><p>Designed By <b class="copy-name">Diwanshu Kumar</b></p>
+    </div>
+    <!-- --------script-------------- -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    var sidemeu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwI30SQCqyv791IlTvlhBarJWfDLDFSBG3QaPHJcF0-3fFYVbVucpsBHbe0-a9dHaCd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
