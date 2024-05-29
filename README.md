@@ -8,11 +8,16 @@
 
 [https://diwanshu-kumar.netlify.app/](https://diwanshu-kumar.netlify.app/)
 
-<h2>Project Screenshots:</h2>
+<h1>Project Screenshots:</h1>
+<h2>Home Page:</h2>
 <img src="https://i.ibb.co/T0kctG6/Screenshot-2024-05-29-at-5-21-24-PM.png" alt="project-screenshot" width="900" height="500/">
+<h2>About Me:</h2>
 <img src="https://i.ibb.co/QQpG9QG/Screenshot-2024-05-29-at-5-21-31-PM.png" alt="project-screenshot" width="900" height="500/">
+<h2>My Work:</h2>
 <img src="https://i.ibb.co/CMwzq7v/Screenshot-2024-05-29-at-5-21-56-PM.png" alt="project-screenshot" width="900" height="500/">
+<h2>Services:</h2>
 <img src="https://i.ibb.co/txqMNhz/Screenshot-2024-05-29-at-5-22-07-PM.png" alt="project-screenshot" width="900" height="500/">
+<h2>Contact:</h2>
 <img src="https://i.ibb.co/2jr3zf9/Screenshot-2024-05-29-at-5-22-19-PM.png" alt="project-screenshot" width="900" height="500/">
 
 
