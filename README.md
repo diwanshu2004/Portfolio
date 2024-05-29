@@ -62,7 +62,6 @@ Technologies used in the project:
 
 *   HTML
 *   CSS
-*   JavaScript
 
 <h2>💖Like my work?</h2>
 
